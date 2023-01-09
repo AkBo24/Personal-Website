@@ -15,7 +15,9 @@ export default function Home() {
                 <meta name='description' content='All about me!' />
             </Head>
 
-            <NavBar />
+            <header className=''>
+                <NavBar />
+            </header>
             <main>
                 <HomePage></HomePage>
             </main>
