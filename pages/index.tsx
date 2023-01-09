@@ -1,10 +1,25 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
+import NavBar from '../Components/NavBar/NavBar';
+import HomePage from '../Components/Home/HomePage';
+import Footer from '../Components/Footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-    return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+    return (
+        <div>
+            <Head>
+                <title>Akshay&apos;s Website</title>
+                <meta name='description' content='All about me!' />
+            </Head>
+
+            <NavBar />
+            <main>
+                <HomePage></HomePage>
+            </main>
+            <Footer />
+        </div>
+    );
 }
