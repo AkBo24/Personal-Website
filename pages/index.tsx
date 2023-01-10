@@ -19,7 +19,7 @@ export default function Home() {
                 <NavBar />
             </header>
             <main>
-                <HomePage></HomePage>
+                <HomePage />
             </main>
             <Footer />
         </div>

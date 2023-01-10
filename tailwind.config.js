@@ -8,6 +8,12 @@ module.exports = {
                 lightGreen: '#50C878',
             },
         },
+        fontFamily: {
+            sans: ['arial'],
+        },
+        fontWeight: {
+            heroLarge: 20,
+        },
     },
     plugins: [],
 };

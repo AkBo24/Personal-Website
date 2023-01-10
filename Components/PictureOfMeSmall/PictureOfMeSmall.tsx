@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PictureOfMe = () => {
+const PictureOfMeSmall = () => {
     return (
         <svg
             width='235' //155
@@ -87,4 +87,4 @@ const PictureOfMe = () => {
     );
 };
 
-export default PictureOfMe;
+export default PictureOfMeSmall;
