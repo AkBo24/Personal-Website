@@ -3,8 +3,8 @@ import React from 'react';
 const PictureOfMe = () => {
     return (
         <svg
-            width='155'
-            height='185'
+            width='235' //155
+            height='265' //185
             viewBox='0 0 155 185'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
