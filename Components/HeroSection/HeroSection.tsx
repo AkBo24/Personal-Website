@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className='sm:pt-[4em] sm:pb-[1.25em] sm:px-[2em] lg:py-24'>
             {/* Tablet and larger */}
-            <div className='sm:hidden lg:flex items-center justify-center gap-40'>
+            <div className='sm:hidden md:flex items-center justify-center gap-40'>
                 <div className='flex flex-col gap-6 font-sans text-slate-100'>
                     <div>
                         <h1 className='text-6xl mb-1'>
@@ -38,7 +38,7 @@ const HeroSection = () => {
             </div>
 
             {/* Mobile */}
-            <div className='sm:grid lg:hidden gap-10 grid-rows-7 text-slate-100'>
+            <div className='sm:grid md:hidden gap-10 grid-rows-7 text-slate-100'>
                 <div className='row-[1_/_3]'>
                     <h1 className='heroText'>
                         Hey :) I&apos;m <br /> Akshay Bodla
