@@ -38,9 +38,7 @@ const BioEngineeringCard = () => {
 
             <div className='grid gap-6'>
                 <div>
-                    <h3 className='text-2xl font-bold mb-4'>
-                        Software and Data Engineer
-                    </h3>
+                    <h3 className='bioCardTitle'>Software and Data Engineer</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -49,23 +47,21 @@ const BioEngineeringCard = () => {
                 </div>
 
                 <div>
-                    <h4 className='text-primaryBlue text-lg font-[500]'>I like to...</h4>
+                    <h4 className='bioCardSectionTitle'>I like to...</h4>
 
                     <ul className='list-disc list-inside'>
-                        <li className=''>Design elegant UI,UX, Web and mobile Apps</li>
+                        <li>Design elegant UI,UX, Web and mobile Apps</li>
                         <li>Learn and research algorithms and their data inputs</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4 className='text-primaryBlue text-lg font-[500]'>Dev Tools:</h4>
+                    <h4 className='bioCardSectionTitle'>Dev Tools:</h4>
                     <p>One, Two, Three</p>
                 </div>
 
                 <div>
-                    <h4 className='text-primaryBlue text-lg font-[500]'>
-                        Languages and Frameworks:
-                    </h4>
+                    <h4 className='bioCardSectionTitle'>Languages:</h4>
                     <p>One, Two, Three</p>
                 </div>
             </div>
