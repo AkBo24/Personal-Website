@@ -3,7 +3,7 @@ import PortraitFrame from '../PortraitFrame/PortraitFrame';
 
 const HeroSection = () => {
     return (
-        <div className='sm:pt-[4em] sm:pb-[1.25em] sm:px-[2em] lg:py-24'>
+        <div className='sm:pt-[4em] sm:pb-[1.25em] sm:px-[2em] lg:py-24 bg-primaryBlue'>
             {/* Tablet and larger */}
             <div className='sm:hidden md:flex items-center justify-center gap-40'>
                 <div className='flex flex-col gap-6 font-sans text-slate-100'>
@@ -20,8 +20,8 @@ const HeroSection = () => {
                     </div>
 
                     <p className='text-xl text-slate-200'>
-                        I love to build beautiful and scalabale fullstack experiences{' '}
-                        <br /> with intuitive user experience
+                        I love to build beautiful and scalabale fullstack experiences with
+                        intuitive user experience
                     </p>
 
                     {/* <p className='pt-10 w-[607px] text-[20px] leading-[24.2px]'>
@@ -52,8 +52,8 @@ const HeroSection = () => {
                 </div>
 
                 <p className='text-xl text-slate-200'>
-                    I love to build beautiful and scalabale fullstack experiences <br />{' '}
-                    with intuitive user experience
+                    I love to build beautiful and scalabale fullstack experiences with
+                    intuitive user experience
                 </p>
 
                 {/* <p className='row-[6_/_7] text-lg'>

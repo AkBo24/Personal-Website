@@ -6,13 +6,14 @@ module.exports = {
             colors: {
                 primaryBlue: '#4830D3',
                 lightGreen: '#50C878',
+                secondaryGold: '#EBCD52',
+            },
+            fontWeight: {
+                heroLarge: 20,
             },
         },
         fontFamily: {
             sans: ['arial'],
-        },
-        fontWeight: {
-            heroLarge: 20,
         },
     },
     plugins: [],
