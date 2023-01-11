@@ -19,4 +19,12 @@ body {
     }
 }
 
-@layer components {}
+@layer components {
+    .heroText {
+        @apply text-slate-100 text-[3.5em] lg:text-[5.5em] leading-[1.2em]
+    }
+
+    .heroTagLine {
+        @apply text-lightGreen text-[2.1em] lg:text-[2.25em] font-[600] leading-[48px]
+    }
+}

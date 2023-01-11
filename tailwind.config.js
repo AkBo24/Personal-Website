@@ -5,7 +5,14 @@ module.exports = {
         extend: {
             colors: {
                 primaryBlue: '#4830D3',
+                lightGreen: '#50C878',
             },
+        },
+        fontFamily: {
+            sans: ['arial'],
+        },
+        fontWeight: {
+            heroLarge: 20,
         },
     },
     plugins: [],
