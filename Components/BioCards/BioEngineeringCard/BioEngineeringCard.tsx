@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Icon = () => (
     <svg
@@ -48,7 +47,6 @@ const BioEngineeringCard = () => {
 
                 <div>
                     <h4 className='bioCardSectionTitle'>I like to...</h4>
-
                     <ul className='list-disc list-inside'>
                         <li>Design elegant UI,UX, Web and mobile Apps</li>
                         <li>Learn and research algorithms and their data inputs</li>
