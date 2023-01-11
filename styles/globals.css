@@ -25,6 +25,6 @@ body {
     }
 
     .heroTagLine {
-        @apply text-lightGreen text-[2.1em] lg:text-[8.5em] font-[600] leading-[48px]
+        @apply text-lightGreen text-[2.1em] lg:text-[2.25em] font-[600] leading-[48px]
     }
 }
