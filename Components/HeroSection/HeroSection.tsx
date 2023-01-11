@@ -3,15 +3,15 @@ import PictureOfMeSmall from '../PictureOfMeSmall/PictureOfMeSmall';
 
 const HeroSection = () => {
     return (
-        <>
+        <div className='sm:pt-[4em] sm:pb-[1.25em] sm:px-[2em] lg:py-24'>
             {/* Tablet and larger */}
-            <div className='sm:hidden md:flex justify-center gap-40 py-40'>
-                <div className='flex flex-col gap-2 font-sans text-slate-100'>
-                    <h1 className='text-[5.5em] font-light leading-[1.2em]'>
+            <div className='sm:hidden lg:flex flex-1 justify-center gap-40'>
+                <div className='flex flex-col gap-2 mr-9 font-sans text-slate-100'>
+                    <h1 className='heroText'>
                         Hey :) I&apos;m <br /> Akshay Bodla.
                     </h1>
 
-                    <h2 className='text-lightGreen text-[40px] font-[600] leading-[48px]'>
+                    <h2 className='heroTagLine'>
                         Developer, Designer, Infinite
                         <br />
                         Learner
@@ -33,15 +33,13 @@ const HeroSection = () => {
             </div>
 
             {/* Mobile */}
-            <div className='sm:grid md:hidden h-[80vh] grid-rows-7 px-4 py-3 text-slate-100'>
+            <div className='sm:grid lg:hidden gap-10 grid-rows-7 text-slate-100'>
                 <div className='row-[1_/_3]'>
-                    <h1 className='text-6xl'>
+                    <h1 className='heroText'>
                         Hey :) I&apos;m <br /> Akshay Bodla
                     </h1>
 
-                    <h2 className='text-lightGreen text-3xl'>
-                        Developer, Designer, Infinite Learner
-                    </h2>
+                    <h2 className='heroTagLine'>Developer, Designer, Infinite Learner</h2>
                 </div>
 
                 <div className='row-[3_/6]'>
@@ -57,7 +55,7 @@ const HeroSection = () => {
                     </span>
                 </p>
             </div>
-        </>
+        </div>
     );
 };
 
