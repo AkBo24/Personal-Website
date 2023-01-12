@@ -27,4 +27,12 @@ body {
     .heroTagLine {
         @apply text-lightGreen text-[2.1em] lg:text-[2.25em] font-[600] leading-[48px]
     }
+
+    .bioCardTitle {
+        @apply text-2xl font-bold mb-4
+    }
+
+    .bioCardSectionTitle {
+        @apply text-primaryBlue text-lg font-[500]
+    }
 }
