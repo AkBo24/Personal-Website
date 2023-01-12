@@ -11,7 +11,7 @@ const ExperienceCard = () => {
                 2
             </div>
 
-            <div className='grid gap-6'>
+            <div className='journeyCardTextContainer'>
                 <h3 className='journeyCardTitle text-center'>Experience</h3>
 
                 <div>

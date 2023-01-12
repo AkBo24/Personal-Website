@@ -11,7 +11,7 @@ const FutureCard = () => {
                 3
             </div>
 
-            <div className='grid gap-6'>
+            <div className='journeyCardTextContainer'>
                 <h3 className='journeyCardTitle'>The Future</h3>
 
                 <div>

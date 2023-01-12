@@ -11,7 +11,7 @@ const EducationCard = () => {
                 1
             </div>
 
-            <div className='grid gap-6'>
+            <div className='journeyCardTextContainer'>
                 <h3 className='journeyCardTitle'>Education</h3>
 
                 <div>

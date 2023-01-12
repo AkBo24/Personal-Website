@@ -34,7 +34,6 @@ const Journey = () => {
                         nisl vel. Magna fringilla urna porttitor rhoncus dolor purus non
                         enim. Mi sit amet mauris commodo quis.{' '}
                     </p>
-
                     <p className='journeyParagraph'>
                         Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Est
                         placerat in egestas erat. Pulvinar pellentesque habitant morbi
