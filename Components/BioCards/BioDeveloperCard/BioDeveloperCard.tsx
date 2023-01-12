@@ -33,7 +33,7 @@ const Icon = () => (
     </svg>
 );
 
-const BioDesignerCard = () => {
+const BioDeveloperCard = () => {
     return (
         <div className='flex-1 py-8 px-10 drop-shadow-card bg-slate-100 rounded-md max-w-lg'>
             <div className='flex justify-center mb-10 rounded-full'>
@@ -51,7 +51,7 @@ const BioDesignerCard = () => {
                 </div>
 
                 <div>
-                    <h4 className='bioCardSectionTitle'>Here&aposs what I can do...</h4>
+                    <h4 className='bioCardSectionTitle'>Here&apos;s what I can do...</h4>
                     <ul className='list-disc list-inside'>
                         <li>Design elegant UI,UX, Web and mobile Apps</li>
                         <li>Learn and research algorithms and their data inputs</li>
@@ -72,4 +72,4 @@ const BioDesignerCard = () => {
     );
 };
 
-export default BioDesignerCard;
+export default BioDeveloperCard;

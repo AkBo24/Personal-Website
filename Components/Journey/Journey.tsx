@@ -6,7 +6,7 @@ import FutureCard from '../JourneyCards/FutureCard/FutureCard';
 const Journey = () => {
     return (
         <>
-            <div className='flex flex-col items-center bg-primaryBlue pt-10 pb-32'>
+            <div className='flex flex-col items-center bg-primaryBlue pt-10 pb-32 px-10'>
                 <div className='max-w-4xl'>
                     <h3 className='text-textGold text-6xl font-[900] mb-4'>
                         Eight years ago,
@@ -57,7 +57,10 @@ const Journey = () => {
                 </div>
             </div>
 
-            <div className='flex sm:flex-col lg:flex-row justify-around items-stretch gap-6 -mt-48 px-10'>
+            <div
+                className='flex justify-around gap-10 flex-col 
+                            items-center lg:flex-row lg:items-stretch 
+                            -mt-48 px-10'>
                 <EducationCard />
                 <ExperienceCard />
                 <FutureCard />

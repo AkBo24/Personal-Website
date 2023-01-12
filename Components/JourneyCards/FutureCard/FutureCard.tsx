@@ -2,7 +2,7 @@ import React from 'react';
 
 const FutureCard = () => {
     return (
-        <div className='flex-1 p-8 drop-shadow-card bg-slate-100 rounded-md max-w-md'>
+        <div className='flex-1 p-8 drop-shadow-card bg-slate-100 rounded-md max-w-md lg:max-w-lg'>
             <div
                 className='absolute -top-5 -right-5
                             flex justify-center items-center 
