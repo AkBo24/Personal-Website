@@ -7,7 +7,7 @@ module.exports = {
                 primaryBlue: '#4830D3',
                 lightGreen: '#50C878',
                 secondaryGold: '#EBCD52',
-                textGold: '#EBCD52',
+                textGold: '#D79716',
             },
             fontWeight: {
                 heroLarge: 20,

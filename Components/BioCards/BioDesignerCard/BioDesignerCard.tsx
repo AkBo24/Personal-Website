@@ -51,7 +51,7 @@ const BioDesignerCard = () => {
                 </div>
 
                 <div>
-                    <h4 className='bioCardSectionTitle'>Here's what I can do...</h4>
+                    <h4 className='bioCardSectionTitle'>Here&aposs what I can do...</h4>
                     <ul className='list-disc list-inside'>
                         <li>Design elegant UI,UX, Web and mobile Apps</li>
                         <li>Learn and research algorithms and their data inputs</li>

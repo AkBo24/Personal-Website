@@ -2,7 +2,7 @@ import React from 'react';
 
 const EducationCard = () => {
     return (
-        <div className='flex-1 py-8 px-10 drop-shadow-card bg-slate-100 rounded-md max-w-md'>
+        <div className='flex-1 p-8 drop-shadow-card bg-slate-100 rounded-md max-w-md'>
             <div
                 className='absolute -top-5 -left-5 
                             flex justify-center items-center 
@@ -12,31 +12,31 @@ const EducationCard = () => {
             </div>
 
             <div className='grid gap-6'>
+                <h3 className='journeyCardTitle'>Education</h3>
+
                 <div>
-                    <h3 className='bioCardTitle'>UI/UX Developer</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris{' '}
+                    <h4 className='bioCardSectionTitle'>
+                        University of Wisconsin-Madison
+                    </h4>
+                    <p>Bachelor of Science, May 2023 </p>
+                    <p>Double Major in Computer Science and Data Science</p>
+                </div>
+
+                <div>
+                    <h4 className='bioCardSectionTitle'>Relevant Coursework:</h4>
+                    <p className='mb-3'>
+                        Some of my favorite technical courses at Madison include{' '}
+                        <span className='font-semibold'>
+                            Capstone, Software Security, Operating Systems, and Databases.
+                        </span>
                     </p>
-                </div>
 
-                <div>
-                    <h4 className='bioCardSectionTitle'>Here's what I can do...</h4>
-                    <ul className='list-disc list-inside'>
-                        <li>Design elegant UI,UX, Web and mobile Apps</li>
-                        <li>Learn and research algorithms and their data inputs</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 className='bioCardSectionTitle'>Frameworks I Build With:</h4>
-                    <p>One, Two, Three</p>
-                </div>
-
-                <div>
-                    <h4 className='bioCardSectionTitle'>Design Tools:</h4>
-                    <p>One, Two, Three</p>
+                    <p>
+                        I also loved my classes in{' '}
+                        <span className='font-semibold'>
+                            African-American Hip Hop and Government Leadership!{' '}
+                        </span>
+                    </p>
                 </div>
             </div>
         </div>

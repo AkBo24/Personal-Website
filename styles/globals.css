@@ -39,4 +39,8 @@ body {
     .journeyParagraph {
         @apply text-slate-100 text-lg mb-3
     }
+
+    .journeyCardTitle {
+        @apply text-textGold text-4xl font-bold
+    }
 }
