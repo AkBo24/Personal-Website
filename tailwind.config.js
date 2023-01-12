@@ -11,6 +11,10 @@ module.exports = {
             fontWeight: {
                 heroLarge: 20,
             },
+
+            dropShadow: {
+                card: '1px 10px 5px rgba(0, 0, 0, 0.25)',
+            },
         },
         fontFamily: {
             sans: ['arial'],

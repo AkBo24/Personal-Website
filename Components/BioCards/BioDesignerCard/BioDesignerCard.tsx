@@ -35,7 +35,7 @@ const Icon = () => (
 
 const BioDesignerCard = () => {
     return (
-        <div className='flex-1 py-8 px-10 bg-slate-100 rounded-md max-w-lg'>
+        <div className='flex-1 py-8 px-10 drop-shadow-card bg-slate-100 rounded-md max-w-lg'>
             <div className='flex justify-center mb-10 rounded-full'>
                 <Icon />
             </div>
