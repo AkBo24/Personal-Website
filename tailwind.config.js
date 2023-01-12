@@ -13,7 +13,7 @@ module.exports = {
             },
 
             dropShadow: {
-                card: '1px 10px 5px rgba(0, 0, 0, 0.25)',
+                card: '5px 10px 7px rgba(0, 0, 0, 0.25)',
             },
         },
         fontFamily: {

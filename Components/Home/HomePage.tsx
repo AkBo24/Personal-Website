@@ -4,7 +4,7 @@ import HeroSection from '../HeroSection/HeroSection';
 
 const HomePage = () => {
     return (
-        <div className='grid gap-10'>
+        <div className='grid gap-28'>
             <HeroSection />
             <BioCardContainer />
         </div>
