@@ -1,5 +1,7 @@
 import React from 'react';
 import EducationCard from '../JourneyCards/EducationCard/EducationCard';
+import ExperienceCard from '../JourneyCards/Experience Card/ExperienceCard';
+import FutureCard from '../JourneyCards/FutureCard/FutureCard';
 
 const Journey = () => {
     return (
@@ -56,10 +58,10 @@ const Journey = () => {
                 </div>
             </div>
 
-            <div className='flex sm:flex-col lg:flex-row justify-around items-center gap-6 -mt-48 px-10'>
+            <div className='flex sm:flex-col lg:flex-row justify-around items-stretch gap-6 -mt-48 px-10'>
                 <EducationCard />
-                <EducationCard />
-                <EducationCard />
+                <ExperienceCard />
+                <FutureCard />
             </div>
         </>
     );
