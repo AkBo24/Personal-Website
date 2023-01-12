@@ -35,4 +35,8 @@ body {
     .bioCardSectionTitle {
         @apply text-primaryBlue text-lg font-[500]
     }
+
+    .journeyParagraph {
+        @apply text-slate-100 text-lg mb-3
+    }
 }
