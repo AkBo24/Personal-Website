@@ -6,9 +6,9 @@ import FutureCard from '../JourneyCards/FutureCard/FutureCard';
 const Journey = () => {
     return (
         <>
-            <div className='flex flex-col items-center bg-primaryBlue pt-10 pb-32 px-10'>
+            <div className='sectionContainerPaddings flex flex-col items-center bg-primaryBlue '>
                 <div className='max-w-4xl'>
-                    <h3 className='text-textGold text-6xl font-[900] mb-4'>
+                    <h3 className='text-secondaryGold text-6xl font-[900] mb-4'>
                         Eight years ago,
                     </h3>
 

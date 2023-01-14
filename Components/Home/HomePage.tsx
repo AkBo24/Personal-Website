@@ -2,6 +2,7 @@ import React from 'react';
 import BioCardContainer from '../BioCards/BioCardContainer';
 import HeroSection from '../HeroSection/HeroSection';
 import Journey from '../Journey/Journey';
+import MoreAboutMe from '../MoreAboutMe/MoreAboutMe';
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <HeroSection />
             <BioCardContainer />
             <Journey />
+            <MoreAboutMe />
         </div>
     );
 };

@@ -36,6 +36,10 @@ body {
         @apply text-primaryBlue text-lg font-[500]
     }
 
+    .sectionContainerPaddings {
+        @apply pt-10 pb-32 px-10
+    }
+
     .journeyParagraph {
         @apply text-slate-100 text-lg mb-3
     }
