@@ -10,7 +10,7 @@ const PrettyList = (props: PrettyListProps) => {
         <ul className='relative'>
             {props.listItems.map((listItem) => (
                 <li
-                    className='pl-14 after:absolute after:top-2 after:left-[6px] after:h-full after:rounded-full
+                    className='relative pl-14 after:absolute after:top-2 after:left-[6px] after:h-full after:rounded-full
                          after:border-2 after:border-primaryBlue'
                     key={listItem.key}>
                     <div

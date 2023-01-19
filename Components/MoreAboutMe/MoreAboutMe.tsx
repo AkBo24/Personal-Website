@@ -22,7 +22,7 @@ const MoreAboutMe = () => {
         },
 
         {
-            title: '',
+            title: 't2',
             subtitle: '',
             description: '',
             key: 2,
@@ -30,25 +30,32 @@ const MoreAboutMe = () => {
     ];
 
     return (
-        <div className='sectionContainerPaddings bg-secondaryGold -mt-40 pt-28'>
-            <div className='mb-10'>
-                <h3 className='text-6xl mb-2'>
-                    More about <span className='text-primaryBlue font-semibold'>me.</span>
-                </h3>
-                <div className='w-32 h-1 bg-primaryBlue rounded-sm' />
+        <div>
+            <div className='sectionContainerPaddings relative bg-secondaryGold -mt-40 mb-4'>
+                <div className='absolute -bottom-0'>
+                    <h3 className='text-6xl font-bold'>
+                        More about{' '}
+                        <span className='text-primaryBlue font-semibold'>me.</span>
+                    </h3>
+                    <div className='w-32 h-1 bg-primaryBlue rounded-sm' />
+                </div>
             </div>
 
-            <div className='grid grid-rows-2 gap-10 lg:grid-cols-2'>
-                <div className=''>
-                    <h4 className='text-primaryBlue text-4xl tracking-wide'>
-                        Certifications
-                    </h4>
+            <div className='flex justify-center'>
+                <div className='relative grid grid-rows-2 gap-20 p-5 pt-8 lg:grid-cols-2 max-w-7xl h-fit bg-slate-100 rounded-md drop-shadow-card'>
+                    <div className=''>
+                        <h4 className='text-primaryBlue text-4xl tracking-wide mb-6'>
+                            Certifications
+                        </h4>
 
-                    <PrettyList listItems={certificationPrettyListItems} />
-                </div>
-                <div className=''>
-                    <h4 className='text-primaryBlue text-4xl tracking-wide'>Projects</h4>
-                    <PrettyList listItems={projectPrettyListItems} />
+                        <PrettyList listItems={certificationPrettyListItems} />
+                    </div>
+                    <div className=''>
+                        <h4 className='text-primaryBlue text-4xl tracking-wide mb-6'>
+                            Projects
+                        </h4>
+                        <PrettyList listItems={projectPrettyListItems} />
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,32 +63,3 @@ const MoreAboutMe = () => {
 };
 
 export default MoreAboutMe;
-
-<div className='flex-1 grid grid-cols-2 grid-rows-4  gap-y-10'>
-    <h4 className=' text-3x tracking-wider '>- Certifications</h4>
-
-    <div className='col-[2] row-span-2'>
-        <p className='text-2xl tracking-wide mb-2'>Certified ScrumMaster® (CSM®)</p>
-        <p className=''>Scrum Alliance, 2022</p>
-    </div>
-
-    <h4 className='col-[1] row-[3] flex items-end text-3xl text-primaryBlue tracking-wider'>
-        - Notable Class Projects
-    </h4>
-
-    <div className='col-[2] row-[3_/_span_2]'>
-        <p className='text-2xl tracking-wide mb-2'>
-            Better living through correlation: Data-Based Mobile App
-        </p>
-        <p className=''>Medtronic, 2022</p>
-    </div>
-    <p className='col-[2] flex items-end text-2xl tracking-wide'></p>
-    <p className='col-[2] row-[2]'></p>
-    <h4 className='col-[1] row-[3] flex items-end text-3xl text-primaryBlue tracking-wider'>
-        - Notable Class Projects
-    </h4>
-
-    <p className='col-[2] row-[3] flex items-end text-2xl tracking-wide'></p>
-
-    <p className='col-[2] row-[4]'>Scrum Alliance, 2022</p>
-</div>;

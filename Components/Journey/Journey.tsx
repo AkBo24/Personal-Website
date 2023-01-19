@@ -58,7 +58,7 @@ const Journey = () => {
             </div>
 
             <div
-                className='flex justify-around gap-10 flex-col 
+                className='flex z-10 justify-around gap-10 flex-col 
                             items-center lg:flex-row lg:items-stretch 
                             -mt-48 px-10'>
                 <EducationCard />
