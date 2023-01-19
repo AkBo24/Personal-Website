@@ -8,7 +8,7 @@ const Footer = () => {
                     Thanks for visiting. Want to reach out?
                 </p>
             </div>
-            <div className='mb-10'>
+            <div className='mb-10 mt-4'>
                 <h3 className='text-primaryBlue text-5xl mb-2'>My Links</h3>
                 <a
                     href='https://github.com/AkBo24'
@@ -25,7 +25,8 @@ const Footer = () => {
                 <h3 className='text-primaryBlue text-5xl mb-2'>Say Hello</h3>
                 <h4 className='text-gray-800 text-2xl mb-2'>akshaybodla21@gmail.com</h4>
             </div>
-            <div className='w-full h-[1px] bg-primaryBlue'>© Akshay Bodla 2023</div>{' '}
+            <div className='w-full h-[1px] bg-primaryBlue'></div>
+            <span className='mt-2'>© Akshay Bodla 2023</span>
         </div>
     );
 };
