@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+        Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+@media (prefers-color-scheme: light) {
+    html {
+        color-scheme: light;
+    }
+    body {
+        color: white;
+        background: black;
+    }
+}
+
+@layer components {
+    .heroText {
+        @apply text-slate-100 text-[3.5em] lg:text-[5.5em] leading-[1.2em]
+    }
+
+    .heroTagLine {
+        @apply text-lightGreen text-[2.1em] lg:text-[2.25em] font-[600] leading-[48px]
+    }
+
+    .bioCardTitle {
+        @apply text-2xl font-bold mb-4
+    }
+
+    .bioCardSectionTitle {
+        @apply text-primaryBlue text-lg font-[500]
+    }
+
+    .sectionContainerPaddings {
+        @apply pt-10 pb-32 px-10
+    }
+
+    .journeyParagraph {
+        @apply text-slate-100 text-lg mb-3
+    }
+
+    .journeyCardTitle {
+        @apply text-textGold text-4xl font-bold
+    }
+
+    .journeyCardTextContainer {
+        @apply grid gap-6 pt-4
+    }
+}
+
+a {
+    /* font-weight: 500; */
+    font-size: 1.5rem;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before {
+    content: '';
+    background: #EDCF53;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 30%;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover::before {
+    width:100%;
+    height: 15%;
+  }
