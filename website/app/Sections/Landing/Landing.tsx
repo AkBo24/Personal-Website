@@ -73,7 +73,11 @@ const Landing = () => {
                 <Grid />
             </div> */}
 
-            <div className='absolute bottom-44 right-72'>
+            <div className='absolute bottom-40 right-96'>
+                <Grid />
+            </div>
+
+            <div className='absolute top-52 left-80'>
                 <Grid />
             </div>
 
