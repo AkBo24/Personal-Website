@@ -16,6 +16,7 @@ const config: Config = {
 
             colors: {
                 gold: '#EBCD52',
+                lightPrimaryBlue: '#729BF1',
             },
         },
     },

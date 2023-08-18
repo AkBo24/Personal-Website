@@ -107,22 +107,22 @@ const Landing = () => {
                     });
                 }}>
                 <h2 className='text-amber-300 text-7xl font-normal pb-10'>Hey! I'm</h2>
-                <h3 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
+                <h1 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
                     Akshay
-                </h3>
+                </h1>
 
                 <div className='inline-flex'>
-                    <h3 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
+                    <h1 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
                         B
-                    </h3>
-                    <div className='relative flex items-center mt-10 w-[309px] h-[100px] bg-indigo-400 rounded-[100px] self-center pr-4'>
+                    </h1>
+                    <div className='relative flex items-center mt-10 w-[309px] h-[100px] bg-lightPrimaryBlue rounded-[100px] self-center pr-4'>
                         <div style={style} />
                         {/* <div className='w-[92px] h-[92px] bg-amber-300 rounded-full translate-x-1 animate-bounce ' /> */}
                     </div>
 
-                    <h3 className='pl-4 text-amber-300 text-[200px] font-extrabold tracking-[20px] '>
+                    <h1 className='pl-4 text-amber-300 text-[200px] font-extrabold tracking-[20px] '>
                         dla
-                    </h3>
+                    </h1>
                 </div>
             </div>
 
