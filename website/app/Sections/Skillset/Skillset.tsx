@@ -15,7 +15,7 @@ const Skillset = () => {
                     <h4 className='flex-1 text-3xl'>
                         Web Development,
                         <br /> Project Management,
-                        <br /> &<br /> Data science
+                        <br /> &<br /> Data Science
                     </h4>
 
                     <p className='text-neutral-400 flex-1 h-[259px]'>
