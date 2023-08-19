@@ -3,18 +3,18 @@ import Grid from '../Landing/components/Grid/Grid';
 
 const About = () => {
     return (
-        <>
-            <div className=' relative sectionContainer'>
-                <div className='absolute top-0'>
-                    <Grid />
-                </div>
+        <div className='relative'>
+            <div className='absolute -top-10 -left-36'>
+                <Grid />
+            </div>
 
-                <div className='absolute bottom-0'>
-                    <Grid />
-                </div>
+            <div className='absolute -bottom-5 -right-36'>
+                <Grid />
+            </div>
+            <div className=' relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
-                <h4 className='text-4xl'>
+                <h4 className='text-4xl my-10'>
                     I’m passionate about problem solving and ideation.
                 </h4>
 
@@ -38,7 +38,7 @@ const About = () => {
                     ad minim veniam, quis nostrud exercitation ullamco laboris
                 </p>
 
-                <h3 className='sectionHeaderBlue'>Links</h3>
+                <h3 className='sectionHeaderBlue mt-10'>Links</h3>
 
                 <a
                     href='https://github.com/AkBo24'
@@ -55,7 +55,7 @@ const About = () => {
                     LinkedIn
                 </a>
             </div>
-        </>
+        </div>
     );
 };
 
