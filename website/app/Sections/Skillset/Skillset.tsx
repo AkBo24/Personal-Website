@@ -9,9 +9,7 @@ const Skillset = () => {
             </h3>
 
             <div className='mt-14'>
-                <h3 className='text-lightPrimaryBlue text-3xl font-medium mb-4'>
-                    My Skillset
-                </h3>
+                <h3 className='sectionHeaderBlue'>My Skillset</h3>
 
                 <div className='flex gap-72'>
                     <h4 className='text-4xl'>
