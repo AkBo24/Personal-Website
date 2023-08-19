@@ -32,6 +32,10 @@ body {
     @apply text-lightPrimaryBlue text-3xl font-medium mb-4
   }
 
+  .sectionSecondaryHeaderBlue {
+    @apply text-lightPrimaryBlue text-2xl font-medium mb-4
+  }
+
   .underlineLightblue {
     @apply underline decoration-lightPrimaryBlue underline-offset-8
   }
