@@ -4,8 +4,8 @@ const Skillset = () => {
     return (
         <div className='items-center'>
             <h3 className='text-3xl x'>
-                And, I design functionally beautiful
-                <br /> applications for unique problems.
+                I design functionally beautiful applications
+                <br /> from meaningful data insights.
             </h3>
 
             <div className='mt-14'>
