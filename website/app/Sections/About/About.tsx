@@ -4,7 +4,7 @@ import Grid from '../Landing/components/Grid/Grid';
 const About = () => {
     return (
         <>
-            <div className='w-[653px] relative'>
+            <div className=' relative sectionContainer'>
                 <div className='absolute top-0'>
                     <Grid />
                 </div>

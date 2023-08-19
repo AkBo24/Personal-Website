@@ -28,6 +28,10 @@ body {
 
 @layer components {
 
+  .sectionContainer {
+    @apply w-[60vw]
+  }
+
   .sectionHeaderBlue {
     @apply text-lightPrimaryBlue text-3xl font-medium mb-4
   }

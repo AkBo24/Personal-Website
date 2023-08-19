@@ -2,7 +2,7 @@ import React from 'react';
 
 const Career = () => {
     return (
-        <div>
+        <div className='sectionContainer'>
             <h3 className='sectionHeaderBlue text-white inline'>My Career</h3>
 
             <a

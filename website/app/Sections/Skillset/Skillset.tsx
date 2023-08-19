@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skillset = () => {
     return (
-        <div className='items-center'>
+        <div className='items-center sectionContainer'>
             <h3 className='text-3xl x'>
                 I design functionally beautiful applications
                 <br /> from meaningful data insights.
@@ -11,14 +11,14 @@ const Skillset = () => {
             <div className='mt-14'>
                 <h3 className='sectionHeaderBlue'>My Skillset</h3>
 
-                <div className='flex gap-72'>
-                    <h4 className='text-4xl'>
+                <div className='flex'>
+                    <h4 className='flex-1 text-3xl'>
                         Web Development,
                         <br /> Project Management,
                         <br /> &<br /> Data science
                     </h4>
 
-                    <p className='w-[294px] h-[259px]'>
+                    <p className='text-neutral-400 flex-1 h-[259px]'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
