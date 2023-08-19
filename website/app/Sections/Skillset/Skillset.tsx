@@ -9,7 +9,7 @@ const Skillset = () => {
                 <br /> from meaningful data insights.
             </h3>
 
-            <div className=' relative'>
+            <div className='relative'>
                 <div className='absolute -top-10 -left-10'>
                     <Frame />
                 </div>

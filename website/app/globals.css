@@ -45,7 +45,7 @@ body {
   }
 
   .careerTitle {
-    @apply text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px] mb-2
+    @apply text-neutral-200 text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px] mb-2
   }
 
   .careerBody {

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Career = () => {
     return (
-        <div className='sectionContainer'>
-            <h3 className='sectionHeaderBlue text-white inline'>My Career</h3>
+        <div className='sectionContainer text-neutral-100'>
+            <h3 className='sectionHeaderBlue text-neutral-100 inline'>My Career</h3>
 
             <a
                 href=''
@@ -34,7 +34,7 @@ const Career = () => {
                 <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
                     <h4 className='careerTitle'>Last Lock</h4>
-                    <p className='text-gray-400 pl-3'>June 2022 - Aug 2023</p>
+                    <p className='text-neutral-400 pl-3'>June 2022 - Aug 2023</p>
                     <p className='text-neutral-200 pl-3'>
                         Lead Software Engineer <br /> Frontend Engineering Lead
                     </p>
@@ -43,7 +43,7 @@ const Career = () => {
                 <div className='text-neutral-200 pl-4'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
                     <h4 className='careerTitle'>CS Capstone Peer Mentor</h4>
-                    <p className='text-gray-400 pl-3'>June 2022 - Aug 2023</p>
+                    <p className='text-neutral-400 pl-3'>June 2022 - Aug 2023</p>
                     <p className='pl-3'>Leveraged Skills: Scrum & Product Manager</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Career = () => {
             <div className='pl-3'>
                 {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
                 <h4 className='careerTitle'>Certified ScrumMaster® (CSM®)</h4>
-                <p className='text-gray-400 pl-4'>June 2022 - June 2024</p>
+                <p className='text-neutral-400 pl-4'>June 2022 - June 2024</p>
                 {/* <p className='pl-4'>Double major in Computer and Data Science</p> */}
             </div>
         </div>
