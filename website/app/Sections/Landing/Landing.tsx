@@ -69,10 +69,6 @@ const Landing = () => {
                 </svg>
             </div>
 
-            {/* <div className='absolute top-48 left-64'>
-                <Grid />
-            </div> */}
-
             <div className='absolute bottom-40 right-96'>
                 <Grid />
             </div>

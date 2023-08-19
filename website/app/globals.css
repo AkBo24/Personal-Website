@@ -30,6 +30,9 @@ body {
 
   .sectionHeaderBlue {
     @apply text-lightPrimaryBlue text-3xl font-medium mb-4
+  }
 
+  .underlineLightblue {
+    @apply underline decoration-lightPrimaryBlue underline-offset-8
   }
 }
