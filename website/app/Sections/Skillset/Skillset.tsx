@@ -37,7 +37,7 @@ const Skillset = () => {
                 What I can do for you
             </h3>
 
-            <div className='grid grid-cols-3 grid-rows-1'>
+            <div className='grid grid-cols-4 gap-4'>
                 <div className='relative'>
                     <p className='absolute text-neutral-400 text-opacity-20 text-[64px] font-medium'>
                         01
@@ -47,8 +47,9 @@ const Skillset = () => {
                         <h4 className='text-gold text-2xl font-medium'>Design</h4>
 
                         <ul className='mt-8'>
-                            <li>Skill</li>
-                            <li>Skill</li>
+                            <li className='mb-4'>Prototyping & wireframing </li>
+                            <li className='mb-4'>User flows & mockups</li>
+                            <li>User research & usability testing</li>
                         </ul>
                     </div>
                 </div>
@@ -62,8 +63,9 @@ const Skillset = () => {
                         <h4 className='text-gold text-2xl font-medium'>Engineer</h4>
 
                         <ul className='mt-8'>
-                            <li>Skill</li>
-                            <li>Skill</li>
+                            <li className='mb-4'>Mobile & Web Applications</li>
+                            <li className='mb-4'>Data Pipelines</li>
+                            <li className='mb-4'>Databases</li>
                         </ul>
                     </div>
                 </div>
@@ -77,17 +79,27 @@ const Skillset = () => {
                         <h4 className='text-gold text-2xl font-medium'>Analyze</h4>
 
                         <ul className='mt-8'>
-                            <li>Skill</li>
-                            <li>Skill</li>
+                            <li className='mb-4'>Data Visulalization</li>
+                            <li className='mb-4'>Data Wrangling</li>
+                            <li className='mb-4'>Cloud Computing</li>
                         </ul>
                     </div>
                 </div>
-                {/* <div className='text-neutral-400 text-opacity-20 text-[64px] font-medium'>
-                    02
+
+                <div className='relative'>
+                    <p className='absolute text-neutral-400 text-opacity-20 text-[64px] font-medium'>
+                        04
+                    </p>
+
+                    <div className='relative top-8 left-4'>
+                        <h4 className='text-gold text-2xl font-medium'>Lead</h4>
+
+                        <ul className='mt-8'>
+                            <li className='mb-4'>Agile & Scrum</li>
+                            <li className='mb-4'>Project Management</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className='text-neutral-400 text-opacity-20 text-[64px] font-medium'>
-                    03
-                </div> */}
             </div>
         </div>
     );
