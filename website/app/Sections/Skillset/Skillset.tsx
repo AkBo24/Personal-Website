@@ -1,14 +1,18 @@
 import React from 'react';
+import Frame from './Components/Frame';
 
 const Skillset = () => {
     return (
-        <div className='items-center sectionContainer'>
-            <h3 className='text-3xl x'>
+        <div className='items-center sectionContainer relative'>
+            <h3 className='text-3xl mb-32'>
                 I design functionally beautiful applications
                 <br /> from meaningful data insights.
             </h3>
 
-            <div className='mt-14'>
+            <div className=' relative'>
+                <div className='absolute -top-10 -left-10'>
+                    <Frame />
+                </div>
                 <h3 className='sectionHeaderBlue'>My Skillset</h3>
 
                 <div className='flex'>
