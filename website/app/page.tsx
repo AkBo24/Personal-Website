@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <main className='flex flex-col gap-32 min-h-screen items-center p-24'>
+            <main className='flex flex-col gap-64 min-h-screen items-center p-24'>
                 <Landing />
                 <Skillset />
                 <Career />

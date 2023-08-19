@@ -43,4 +43,12 @@ body {
   .underlineLightblue {
     @apply underline decoration-lightPrimaryBlue underline-offset-8
   }
+
+  .careerTitle {
+    @apply text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px] mb-2
+  }
+
+  .careerBody {
+    @apply pl-4
+  }
 }

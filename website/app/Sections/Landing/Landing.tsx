@@ -122,7 +122,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className='items-center animate-bounce'>
+            {/* <div className='items-center animate-bounce'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='75'
@@ -135,7 +135,7 @@ const Landing = () => {
                         stroke-width='5'
                     />
                 </svg>
-            </div>
+            </div> */}
         </>
     );
 };

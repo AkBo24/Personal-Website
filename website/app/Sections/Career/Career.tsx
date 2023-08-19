@@ -9,72 +9,68 @@ const Career = () => {
                 href=''
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-lg font-medium underlineLightblue mr-4'>
+                className='text-lg font-medium underlineLightblue ml-10 group hover:text-lightPrimaryBlue'>
                 see my resume
+                <img
+                    src='arrowleft.svg'
+                    alt='Arrow pointing left, indicating go'
+                    className='inline pl-1  group-hover:translate-x-2'
+                    width={20}
+                />
             </a>
 
-            <h3 className='sectionSecondaryHeaderBlue m-0'>Education</h3>
-            <div className='pl-4'>
+            <h3 className='sectionSecondaryHeaderBlue mt-8'>Education</h3>
+            <div className='pl-4 mb-10 '>
                 {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                    University of Wisconsin-Madison
-                </h4>
-                <p className='text-gray-400 pl-4'>Sept 2019 - May 2023</p>
-                <p className='pl-4'>Double major in Computer and Data Science</p>
+                <h4 className='careerTitle'>University of Wisconsin-Madison</h4>
+                <p className='text-neutral-400 pl-3'>Sept 2019 - May 2023</p>
+                <p className='pl-3 text-neutral-200'>
+                    Double major in Computer and Data Science
+                </p>
             </div>
 
             <h3 className='sectionSecondaryHeaderBlue'>Experiences</h3>
-            <div className='flex'>
-                <div className='pl-4'>
+            <div className='mb-10 grid grid-cols-2'>
+                <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                    <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                        Last Lock
-                    </h4>
-                    <p className='text-gray-400 pl-4'>June 2022 - Aug 2023</p>
-                    <p className='pl-4'>
+                    <h4 className='careerTitle'>Last Lock</h4>
+                    <p className='text-gray-400 pl-3'>June 2022 - Aug 2023</p>
+                    <p className='text-neutral-200 pl-3'>
                         Lead Software Engineer <br /> Frontend Engineering Lead
                     </p>
                 </div>
 
-                <div className='pl-4'>
+                <div className='text-neutral-200 pl-4'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                    <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                        CS Capstone Peer Mentor
-                    </h4>
-                    <p className='text-gray-400 pl-4'>June 2022 - Aug 2023</p>
-                    <p className='pl-4'>Leveraged Skills: Scrum & Product Manager</p>
+                    <h4 className='careerTitle'>CS Capstone Peer Mentor</h4>
+                    <p className='text-gray-400 pl-3'>June 2022 - Aug 2023</p>
+                    <p className='pl-3'>Leveraged Skills: Scrum & Product Manager</p>
                 </div>
             </div>
 
             <h3 className='sectionSecondaryHeaderBlue'>Projects</h3>
-            <div className='flex'>
-                <div className='pl-4'>
+            <div className='mb-10 grid grid-cols-2'>
+                <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                    <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                        Better Living Through Correlation
-                    </h4>
+                    <h4 className='careerTitle'>Better Living Through Correlation</h4>
                     {/* <p className='text-gray-400 pl-4'>June 2022 - Aug 2023</p>
                     <p className='pl-4'>
                         Lead Software Engineer <br /> Frontend Engineering Lead
                     </p> */}
                 </div>
 
-                <div className='pl-4'>
+                <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                    <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                        Web based EMR
-                    </h4>
+                    <h4 className='careerTitle'>Web based EMR</h4>
                     {/* <p className='text-gray-400 pl-4'>June 2022 - Aug 2023</p>
                     <p className='pl-4'>Leveraged Skills: Scrum & Product Manager</p> */}
                 </div>
             </div>
 
-            <h3 className='sectionSecondaryHeaderBlue m-0'>Certifications</h3>
-            <div className='pl-4'>
+            <h3 className='sectionSecondaryHeaderBlue'>Certifications</h3>
+            <div className='pl-3'>
                 {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
-                <h4 className='text-white text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px]'>
-                    Certified ScrumMaster® (CSM®)
-                </h4>
+                <h4 className='careerTitle'>Certified ScrumMaster® (CSM®)</h4>
                 <p className='text-gray-400 pl-4'>June 2022 - June 2024</p>
                 {/* <p className='pl-4'>Double major in Computer and Data Science</p> */}
             </div>
