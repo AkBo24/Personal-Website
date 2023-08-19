@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from '../Landing/components/Grid/Grid';
+import ImageArrow from '../Components/ImageArrow/ImageArrow';
 
 const About = () => {
     return (
@@ -44,15 +45,17 @@ const About = () => {
                     href='https://github.com/AkBo24'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl font-medium underlineLightblue mr-4'>
+                    className='text-2xl font-medium underlineLightblue mr-10 group '>
                     Github
+                    <ImageArrow />
                 </a>
                 <a
-                    href='https://github.com/AkBo24'
+                    href='https://www.linkedin.com/in/akshay-bodla/'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl font-medium underlineLightblue'>
+                    className='text-2xl font-medium underlineLightblue group  '>
                     LinkedIn
+                    <ImageArrow />
                 </a>
             </div>
         </div>
