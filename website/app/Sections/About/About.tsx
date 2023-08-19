@@ -19,7 +19,7 @@ const About = () => {
                     I’m passionate about problem solving and ideation.
                 </h4>
 
-                <p className='text-neutral-200'>
+                <p className='text-neutral-400'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                     minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum
@@ -45,7 +45,7 @@ const About = () => {
                     href='https://github.com/AkBo24'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl text-neutral-200 font-medium underlineLightblue mr-10 group '>
+                    className='text-2xl text-neutral-200 font-medium underlineLightblue mr-10 group hover:text-lightPrimaryBlue'>
                     Github
                     <ImageArrow />
                 </a>
@@ -53,7 +53,7 @@ const About = () => {
                     href='https://www.linkedin.com/in/akshay-bodla/'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl text-neutral-200 font-medium underlineLightblue group  '>
+                    className='text-2xl text-neutral-200 font-medium underlineLightblue group  hover:text-lightPrimaryBlue'>
                     LinkedIn
                     <ImageArrow />
                 </a>
