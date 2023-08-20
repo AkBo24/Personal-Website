@@ -5,18 +5,18 @@ import ImageArrow from '../Components/ImageArrow/ImageArrow';
 const About = () => {
     return (
         <div className='relative'>
-            <div className='absolute -top-10 -left-36'>
+            <div className='hidden lg:block absolute -top-10 -left-36'>
                 <Grid />
             </div>
 
-            <div className='absolute -bottom-5 -right-36'>
+            <div className='hidden lg:block absolute -bottom-5 -right-36'>
                 <Grid />
             </div>
-            <div className=' relative sectionContainer'>
+            <div className='relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
-                <div className='grid grid-cols-2'>
-                    <h4 className='text-3xl mt-4 mb-10 font-semibold'>
+                <div className='grid gap-6 grid-flow-row lg:grid-cols-2'>
+                    <h4 className='text-3xl font-semibold'>
                         Tough problems inspire me to ideate and build.
                     </h4>
 
@@ -44,7 +44,7 @@ const About = () => {
                     href='https://github.com/AkBo24'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl text-neutral-200 font-medium underlineLightblue mr-10 group hover:text-lightPrimaryBlue'>
+                    className='text-2xl text-neutral-200 font-medium underlineLightblue block mb-4 sm:inline sm:mr-10 group hover:text-lightPrimaryBlue'>
                     Github
                     <ImageArrow />
                 </a>
