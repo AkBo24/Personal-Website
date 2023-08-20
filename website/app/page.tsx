@@ -8,7 +8,7 @@ import Navbar from './Sections/Navbar/Navbar';
 
 export default function Home() {
     return (
-        <>
+        <div className='bg-black'>
             <Navbar />
             <main className='flex flex-col gap-64 min-h-screen items-center p-24 text-neutral-100'>
                 <Landing />
@@ -17,6 +17,6 @@ export default function Home() {
                 <About />
             </main>
             <Footer />
-        </>
+        </div>
     );
 }
