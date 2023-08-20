@@ -34,11 +34,11 @@ body {
   }
 
   .sectionHeaderBlue {
-    @apply text-lightPrimaryBlue text-3xl font-medium mb-4
+    @apply text-lightPrimaryBlue text-2xl lg:text-3xl font-medium mb-4
   }
 
   .sectionSecondaryHeaderBlue {
-    @apply text-lightPrimaryBlue text-2xl font-medium mb-4
+    @apply text-lightPrimaryBlue text-lg lg:text-2xl font-medium mb-4
   }
 
   .underlineLightblue {
@@ -46,7 +46,7 @@ body {
   }
 
   .careerTitle {
-    @apply text-neutral-200 text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 h-3 leading-[11px] mb-2
+    @apply text-neutral-200 text-xl font-bold border-l-lightPrimaryBlue border-l-[1px] pl-3 xl:h-3 xl:leading-[11px] mb-2
   }
 
   .careerBody {
