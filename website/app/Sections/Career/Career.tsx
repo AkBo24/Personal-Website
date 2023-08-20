@@ -30,7 +30,7 @@ const Career = () => {
             </div>
 
             <h3 className='sectionSecondaryHeaderBlue'>Experiences</h3>
-            <div className='mb-10 grid grid-cols-2'>
+            <div className='mb-10 grid max-md:grid-flow-row max-lg:gap-9 lg:grid-cols-2'>
                 <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
                     <h4 className='careerTitle'>Last Lock</h4>
@@ -49,7 +49,7 @@ const Career = () => {
             </div>
 
             <h3 className='sectionSecondaryHeaderBlue'>Projects</h3>
-            <div className='mb-10 grid grid-cols-2'>
+            <div className='mb-10 grid max-lg:grid-flow-row max-lg:gap-9 lg:grid-cols-2'>
                 <div className='pl-3'>
                     {/* <div className='w-2.5 h-px origin-top-left -rotate-90 bg-lightPrimaryBlue rounded-[1px] ' /> */}
                     <h4 className='careerTitle'>Better Living Through Correlation</h4>

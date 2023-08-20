@@ -3,38 +3,27 @@ import Frame from './Components/Frame';
 
 const Skillset = () => {
     return (
-        <div className='items-center sectionContainer relative'>
-            <h3 className='text-3xl mb-32'>
-                I design functionally beautiful applications
-                <br /> from meaningful data insights.
+        <div className='lg:sectionContainer relative'>
+            <h3 className='text-2xl w-full mb-10 lg:text-3xl lg:mb-32'>
+                I design functionally beautiful applications from meaningful data
+                insights.
             </h3>
 
             <div className='relative'>
-                <div className='absolute -top-10 -left-10 -z-10'>
+                <div className='hidden 2xl:block absolute -top-10 -left-10 -z-10'>
                     <Frame />
                 </div>
                 <h3 className='sectionHeaderBlue'>My Skillset</h3>
 
-                <div className='flex'>
-                    <h4 className='flex-1 text-3xl font-semibold'>
+                <div className='flex flex-col gap-2 lg:flex-row'>
+                    <h4 className='lg:hidden flex-1 text-3xl font-semibold'>
+                        Web Development, Project Management, & Data Science
+                    </h4>
+                    <h4 className='hidden lg:block flex-1 text-3xl font-semibold'>
                         Web Development,
                         <br /> Project Management,
                         <br /> &<br /> Data Science
                     </h4>
-                    {/* An enthusiastic product designer currently shaping the future of
-                    software development by designing smooth user-interfaces that promote
-                    user interaction with information and data. While traveling around the
-                    world. */}
-                    {/* I specialize in building complex web applications, leading front-end
-                    teams, digital product design and developing visual design systems. I
-                    enjoy creating effortless user experience and designing delightful
-                    digital products. The entire process of going from a concept to
-                    release and gathering user’s feedback on either client’s or my own
-                    products is what makes me wake up everyday! I worked with numerous
-                    clients from all around the world from early startups to
-                    well-established companies. I always seek new opportunities for
-                    cooperation on projects around interesting dashboards, design systems
-                    or landing pages. Let’s create something awesome together! */}
 
                     <p className='text-neutral-400 flex-1 '>
                         I'm a full stack devloper who translates data insights into
@@ -58,7 +47,7 @@ const Skillset = () => {
                 What I can do for you
             </h3>
 
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='grid grid-cols-2 gap-10 lg:grid-cols-4'>
                 <div className='relative'>
                     <p className='absolute text-neutral-400 text-opacity-20 text-[64px] font-medium'>
                         01
