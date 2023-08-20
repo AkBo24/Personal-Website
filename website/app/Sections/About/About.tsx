@@ -16,7 +16,7 @@ const About = () => {
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
                 <div className='grid grid-cols-2'>
-                    <h4 className='text-4xl mt-4 mb-10 font-bold'>
+                    <h4 className='text-3xl mt-4 mb-10 font-semibold'>
                         Tough problems inspire me to ideate and build.
                     </h4>
 

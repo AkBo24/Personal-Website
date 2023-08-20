@@ -16,7 +16,7 @@ const Skillset = () => {
                 <h3 className='sectionHeaderBlue'>My Skillset</h3>
 
                 <div className='flex'>
-                    <h4 className='flex-1 text-3xl'>
+                    <h4 className='flex-1 text-3xl font-semibold'>
                         Web Development,
                         <br /> Project Management,
                         <br /> &<br /> Data Science
