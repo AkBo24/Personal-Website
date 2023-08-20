@@ -26,7 +26,7 @@ const Landing = () => {
         <>
             <div className='lg:hidden'>
                 <h2 className='text-amber-300 text-5xl font-normal pb-10'>Hey! I'm</h2>
-                <h1 className='text-amber-300 text-8xl font-extrabold'>
+                <h1 className='text-amber-300 text-6xl font-extrabold'>
                     Akshay
                     <br />
                     Bodla

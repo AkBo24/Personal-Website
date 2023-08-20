@@ -44,7 +44,7 @@ const About = () => {
                     href='https://github.com/AkBo24'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-2xl text-neutral-200 font-medium underlineLightblue mr-10 group hover:text-lightPrimaryBlue'>
+                    className='text-2xl text-neutral-200 font-medium underlineLightblue block mb-4 sm:inline sm:mr-10 group hover:text-lightPrimaryBlue'>
                     Github
                     <ImageArrow />
                 </a>
