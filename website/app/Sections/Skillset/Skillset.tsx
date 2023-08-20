@@ -10,7 +10,7 @@ const Skillset = () => {
             </h3>
 
             <div className='relative'>
-                <div className='absolute -top-10 -left-10'>
+                <div className='absolute -top-10 -left-10 -z-10'>
                     <Frame />
                 </div>
                 <h3 className='sectionHeaderBlue'>My Skillset</h3>
@@ -21,14 +21,35 @@ const Skillset = () => {
                         <br /> Project Management,
                         <br /> &<br /> Data Science
                     </h4>
+                    {/* An enthusiastic product designer currently shaping the future of
+                    software development by designing smooth user-interfaces that promote
+                    user interaction with information and data. While traveling around the
+                    world. */}
+                    {/* I specialize in building complex web applications, leading front-end
+                    teams, digital product design and developing visual design systems. I
+                    enjoy creating effortless user experience and designing delightful
+                    digital products. The entire process of going from a concept to
+                    release and gathering user’s feedback on either client’s or my own
+                    products is what makes me wake up everyday! I worked with numerous
+                    clients from all around the world from early startups to
+                    well-established companies. I always seek new opportunities for
+                    cooperation on projects around interesting dashboards, design systems
+                    or landing pages. Let’s create something awesome together! */}
 
                     <p className='text-neutral-400 flex-1 h-[259px]'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        I'm a full stack devloper who translates data insights into
+                        valuable applications. I provide effortless experiences by
+                        understanding how users interact with each of my products. I'm
+                        experienced in product conception, development, release, and data
+                        analytics. During college, I led several teams using agile
+                        methodologies to provide real products during a capstone course. I
+                        also led a small development team to prototype a electronic
+                        medical record. More recently, I colaborated with clients to
+                        design and deploy proof of concept website and IoT, iOS
+                        application.
+                        <br /> <br />
+                        Simply put, I love telling a compelling story through information
+                        and interfaces!
                     </p>
                 </div>
             </div>
