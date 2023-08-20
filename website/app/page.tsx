@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className='bg-black'>
             <Navbar />
-            <main className='flex flex-col gap-64 min-h-screen items-center p-24 text-neutral-100'>
+            <main className='flex flex-col gap-64 min-h-screen lg:items-center p-24 text-neutral-100'>
                 <Landing />
                 <Skillset />
                 <Career />
