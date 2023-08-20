@@ -15,8 +15,8 @@ const About = () => {
             <div className=' relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
-                <h4 className='text-4xl my-10'>
-                    I’m passionate about problem solving and ideation.
+                <h4 className='text-4xl mt-4 mb-10'>
+                    Tough problems inspire me to ideate and build.
                 </h4>
 
                 <p className='text-neutral-400'>
