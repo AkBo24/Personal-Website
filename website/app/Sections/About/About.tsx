@@ -15,29 +15,28 @@ const About = () => {
             <div className=' relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
-                <h4 className='text-4xl mt-4 mb-10'>
-                    Tough problems inspire me to ideate and build.
-                </h4>
+                <div className='grid grid-cols-2'>
+                    <h4 className='text-4xl mt-4 mb-10 font-bold'>
+                        Tough problems inspire me to ideate and build.
+                    </h4>
 
-                <p className='text-neutral-400'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris
-                </p>
+                    <p className='text-neutral-400'>
+                        I'm a devloper with an interest in bytes and a lot of other
+                        things. I got started with computer science in 8th grade when I
+                        took a graphic and (a very introductory) web design course. My
+                        interest in CS continued into high school where I joined and
+                        eventually led a FRC team. I became a full-fledged programmer in
+                        Operating Systems by experiencing my first C{' '}
+                        <span className='text-red-500 font-bold'>seg-fault</span> (oh the
+                        horror)... <br /> <br />
+                        Now, I spend my time learning new technologies and building cool
+                        projects. Check back to learn more about them! When I'm not
+                        playing with pixels and bytes, you can find me hiking, hanging out
+                        with friends, or generally enjoying my time.
+                        <br /> <br />
+                        If you'd like to work with me, please reach out.
+                    </p>
+                </div>
 
                 <h3 className='sectionHeaderBlue mt-10'>Links</h3>
 

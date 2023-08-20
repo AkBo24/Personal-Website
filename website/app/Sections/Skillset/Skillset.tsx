@@ -36,7 +36,7 @@ const Skillset = () => {
                     cooperation on projects around interesting dashboards, design systems
                     or landing pages. Let’s create something awesome together! */}
 
-                    <p className='text-neutral-400 flex-1 h-[259px]'>
+                    <p className='text-neutral-400 flex-1 '>
                         I'm a full stack devloper who translates data insights into
                         valuable applications. I provide effortless experiences by
                         understanding how users interact with each of my products. I'm
@@ -54,7 +54,7 @@ const Skillset = () => {
                 </div>
             </div>
 
-            <h3 className='underline-lightPrimaryBlue text-2xl font-medium underline decoration-lightPrimaryBlue underline-offset-8'>
+            <h3 className='mt-10 underline-lightPrimaryBlue text-2xl font-medium underline decoration-lightPrimaryBlue underline-offset-8'>
                 What I can do for you
             </h3>
 
