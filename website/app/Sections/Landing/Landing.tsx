@@ -24,42 +24,59 @@ const Landing = () => {
 
     return (
         <div className='relative'>
-            <div className='absolute -bottom-10 -left-32'>
-                <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='111'
-                    height='38'
-                    viewBox='0 0 111 38'
-                    fill='none'>
-                    <path
-                        d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
-                        stroke='#50C878'
-                        stroke-width='3'
-                    />
-                </svg>
-            </div>
+            <div className='hidden md:block'>
+                <div className='absolute -bottom-10 -left-32'>
+                    <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='111'
+                        height='38'
+                        viewBox='0 0 111 38'
+                        fill='none'>
+                        <path
+                            d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
+                            stroke='#50C878'
+                            stroke-width='3'
+                        />
+                    </svg>
+                </div>
 
-            <div className='absolute top-10 -right-10'>
-                <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='111'
-                    height='38'
-                    viewBox='0 0 111 38'
-                    fill='none'>
-                    <path
-                        d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
-                        stroke='#50C878'
-                        stroke-width='3'
-                    />
-                </svg>
-            </div>
+                <div className='absolute top-10 -right-10'>
+                    <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='111'
+                        height='38'
+                        viewBox='0 0 111 38'
+                        fill='none'>
+                        <path
+                            d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
+                            stroke='#50C878'
+                            stroke-width='3'
+                        />
+                    </svg>
+                </div>
 
-            <div className='absolute top-28 -left-10'>
-                <Grid />
-            </div>
+                <div className='absolute top-28 -left-10'>
+                    <Grid />
+                </div>
 
-            <div className='absolute -bottom-10 -right-20'>
-                <Grid />
+                <div className='absolute -bottom-10 -right-20'>
+                    <Grid />
+                </div>
+
+                <div className='absolute bottom-10 right-px '>
+                    <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='900'
+                        height='505'
+                        viewBox='0 0 910 505'
+                        fill='none'>
+                        <path
+                            d='M2 457.597V501C2 502.105 2.89543 503 4 503H907C908.105 503 909 502.105 909 501V4C909 2.89543 908.105 2 907 2L721.672 2'
+                            stroke='#50C878'
+                            stroke-width='3'
+                        />
+                    </svg>
+                </div>
             </div>
 
             <div
@@ -87,21 +104,6 @@ const Landing = () => {
                         left: `${newCoord}px`,
                     });
                 }}>
-                <div className='absolute bottom-10 right-px '>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        width='900'
-                        height='505'
-                        viewBox='0 0 910 505'
-                        fill='none'>
-                        <path
-                            d='M2 457.597V501C2 502.105 2.89543 503 4 503H907C908.105 503 909 502.105 909 501V4C909 2.89543 908.105 2 907 2L721.672 2'
-                            stroke='#50C878'
-                            stroke-width='3'
-                        />
-                    </svg>
-                </div>
-
                 <h2 className='text-amber-300 text-7xl font-normal pb-10'>Hey! I'm</h2>
                 <h1 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
                     Akshay
