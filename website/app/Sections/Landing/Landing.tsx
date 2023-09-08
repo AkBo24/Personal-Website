@@ -51,7 +51,12 @@ const Landing = () => {
             </div>
             <h2 className='text-secondaryText text-2xl my-20'>
                 I can help you design functionally beautiful digital products with an
-                emphasis on user experience based on meaningful data insights.
+                emphasis on{' '}
+                <span className='font-bold text-neutral-50'>user experience</span> based
+                on meaningful{' '}
+                <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
+                    data insights.
+                </span>
             </h2>
 
             <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft'>

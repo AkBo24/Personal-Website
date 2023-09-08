@@ -20,6 +20,7 @@ const config: Config = {
                 gold: '#EBCD52',
                 lightPrimaryBlue: '#729BF1',
                 secondaryText: '#D9D9D9',
+                mint: '#50C878',
             },
             animation: {
                 slideUpLeft: 'slideUpLeft 1s cubic-bezier(0.83, 0, 0.17, 1)',
