@@ -35,7 +35,7 @@ const config: Config = {
                 },
                 slideDownRight: {
                     '25%, 50%': {
-                        transform: 'translate(5%, 5%)',
+                        transform: 'translate(10%, 10%)',
                     },
                 },
                 'text-slide-3': {

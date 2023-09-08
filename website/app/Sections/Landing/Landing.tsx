@@ -24,18 +24,17 @@ const Landing = () => {
 
     return (
         <div className='h-screen flex flex-col justify-center px-44'>
-            <div className='text-5xl '>
-                <h2 className='text-gold mb-4'>Well, Hello!</h2>
-                <h1 className='text-secondaryText mb-4'>
-                    My name is{' '}
-                    <span className='text-neutral-50 font-semibold'>Akshay</span>
+            <div className='text-5xl tracking-wide'>
+                <h2 className='text-secondaryText mb-5'>Well, Hello!</h2>
+                <h1 className='text-secondaryText mb-5'>
+                    My name is <span className='text-gold font-semibold'>Akshay</span>
                 </h1>
 
                 <div>
                     <h1 className='text-secondaryText'>
                         I'm a{' '}
                         <span
-                            className='text-gold inline-flex flex-col 
+                            className='text-gold font-semibold inline-flex flex-col 
                                         h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] 
                                         md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
                                         overflow-hidden'>
@@ -49,19 +48,34 @@ const Landing = () => {
                     </h1>
                 </div>
             </div>
-            <h2 className='text-secondaryText text-2xl my-20'>
-                I design functionally beautiful digital products with an emphasis on{' '}
-                <span className='font-bold text-neutral-50'>user experiences</span>{' '}
-                derived from meaningful{' '}
-                <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
-                    data insights.
-                </span>
-            </h2>
 
+            <h2 className='text-secondaryText text-2xl my-20'>
+                I will create a functionally beautiful{' '}
+                <span className='font-bold text-neutral-50'>user experience</span> derived
+                from meaningful{' '}
+                <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
+                    data insights
+                </span>{' '}
+                to enhance your product.
+            </h2>
             <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft'>
                 <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
                 Learn More
             </button>
+            <div className='mt-10'>
+                <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='25'
+                    height='114'
+                    viewBox='0 0 25 114'
+                    fill='none'>
+                    <path
+                        d='M12.25 112.5L12.25 5.02315e-06M12.25 112.5L0.931744 101.182M12.25 112.5L23.5683 101.182'
+                        stroke='#B9B9B9'
+                        stroke-width='2'
+                    />
+                </svg>
+            </div>
         </div>
     );
 };
