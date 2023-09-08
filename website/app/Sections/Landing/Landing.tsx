@@ -23,40 +23,38 @@ const Landing = () => {
     };
 
     return (
-        <div className='h-screen flex flex-col justify-center px-44'>
-            <div className='text-5xl tracking-wide'>
+        <div className='h-screen flex flex-col justify-center '>
+            <div className='text-4xl tracking-wide'>
                 <h2 className='text-secondaryText mb-5'>Well, Hello!</h2>
                 <h1 className='text-secondaryText mb-5'>
-                    My name is <span className='text-gold font-semibold'>Akshay</span>
+                    My name is <span className='text-gold font-semibold'>Akshay</span>.
+                    I'm a
                 </h1>
 
-                <div>
-                    <h1 className='text-secondaryText'>
-                        I'm a{' '}
-                        <span
-                            className='text-gold font-semibold inline-flex flex-col 
-                                        h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] 
-                                        md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                <h1 className='my-20 text-secondaryText text-5xl md:text-7xl xl:text-9xl'>
+                    <span
+                        className='text-gold font-semibold inline-flex flex-col 
+                                        h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                                        md:h-[calc(theme(fontSize.7xl)*theme(lineHeight.tight))] 
+                                        xl:h-[calc(theme(fontSize.9xl)*theme(lineHeight.tight))] 
                                         overflow-hidden'>
-                            <ul className='block animate-textSlide3 text-left leading-tight [&_li]:block'>
-                                <li>Software Engineer</li>
-                                <li>Product Designer</li>
-                                <li>Data Scientist</li>
-                                <li aria-hidden='true'>Software Engineer</li>
-                            </ul>
-                        </span>
-                    </h1>
-                </div>
+                        <ul className='block animate-textSlide3 text-left leading-tight [&_li]:block'>
+                            <li>Software Engineer</li>
+                            <li>Product Designer</li>
+                            <li>Data Scientist</li>
+                            <li aria-hidden='true'>Software Engineer</li>
+                        </ul>
+                    </span>
+                </h1>
             </div>
 
-            <h2 className='text-secondaryText text-2xl my-20'>
-                I will create a functionally beautiful{' '}
-                <span className='font-bold text-neutral-50'>user experience</span> derived
-                from meaningful{' '}
+            <h2 className='text-secondaryText text-xl md:text-2xl mb-10'>
+                I create functionally-beautiful digital products with an emphasis on{' '}
+                <span className='font-bold text-neutral-50'>user experiences</span>{' '}
+                derived from meaningful{' '}
                 <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
-                    data insights
+                    data insights.
                 </span>{' '}
-                to enhance your product.
             </h2>
             <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft'>
                 <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
