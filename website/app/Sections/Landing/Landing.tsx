@@ -24,7 +24,7 @@ const Landing = () => {
 
     return (
         <div className='h-screen flex flex-col justify-center px-44'>
-            <div className='mb-20 text-6xl '>
+            <div className='text-5xl '>
                 <h2 className='text-gold mb-4'>Well, Hello!</h2>
                 <h1 className='text-secondaryText mb-4'>
                     My name is{' '}
@@ -33,11 +33,23 @@ const Landing = () => {
 
                 <div>
                     <h1 className='text-secondaryText'>
-                        I'm a {`{ Software Engineer } `}
+                        I'm a{' '}
+                        <span
+                            className='text-gold inline-flex flex-col 
+                                        h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] 
+                                        md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                                        overflow-hidden'>
+                            <ul className='block animate-textSlide3 text-left leading-tight [&_li]:block'>
+                                <li>Software Engineer</li>
+                                <li>Web Designer</li>
+                                <li>Data Scientist</li>
+                                <li aria-hidden='true'>Software Engineer</li>
+                            </ul>
+                        </span>
                     </h1>
                 </div>
             </div>
-            <h2 className='text-secondaryText text-2xl mb-10'>
+            <h2 className='text-secondaryText text-2xl my-20'>
                 I can help you design functionally beautiful digital products with an
                 emphasis on user experience based on meaningful data insights.
             </h2>
