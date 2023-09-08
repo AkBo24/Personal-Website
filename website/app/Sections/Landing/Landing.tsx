@@ -41,7 +41,7 @@ const Landing = () => {
                                         overflow-hidden'>
                             <ul className='block animate-textSlide3 text-left leading-tight [&_li]:block'>
                                 <li>Software Engineer</li>
-                                <li>Web Designer</li>
+                                <li>Product Designer</li>
                                 <li>Data Scientist</li>
                                 <li aria-hidden='true'>Software Engineer</li>
                             </ul>
@@ -50,10 +50,9 @@ const Landing = () => {
                 </div>
             </div>
             <h2 className='text-secondaryText text-2xl my-20'>
-                I can help you design functionally beautiful digital products with an
-                emphasis on{' '}
-                <span className='font-bold text-neutral-50'>user experience</span> based
-                on meaningful{' '}
+                I design functionally beautiful digital products with an emphasis on{' '}
+                <span className='font-bold text-neutral-50'>user experiences</span>{' '}
+                derived from meaningful{' '}
                 <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
                     data insights.
                 </span>
