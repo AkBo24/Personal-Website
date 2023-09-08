@@ -23,132 +23,58 @@ const Landing = () => {
     };
 
     return (
-        <>
-            <div className='lg:hidden'>
-                <h2 className='text-amber-300 text-5xl font-normal pb-10'>Hey! I'm</h2>
-                <h1 className='text-amber-300 text-6xl font-extrabold'>
-                    Akshay
-                    <br />
-                    Bodla
+        <div className='h-screen flex flex-col justify-center '>
+            <div className='text-4xl tracking-wide'>
+                <h2 className='text-secondaryText mb-5'>Well, Hello!</h2>
+                <h1 className='text-secondaryText mb-5'>
+                    My name is <span className='text-gold font-semibold'>Akshay</span>.
+                    I'm a
+                </h1>
+
+                <h1 className='my-20 text-secondaryText text-5xl md:text-7xl xl:text-9xl'>
+                    <span
+                        className='text-gold font-semibold inline-flex flex-col 
+                                        h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                                        md:h-[calc(theme(fontSize.7xl)*theme(lineHeight.tight))] 
+                                        xl:h-[calc(theme(fontSize.9xl)*theme(lineHeight.tight))] 
+                                        overflow-hidden'>
+                        <ul className='block animate-textSlide3 text-left leading-tight [&_li]:block'>
+                            <li>Software Engineer</li>
+                            <li>Product Designer</li>
+                            <li>Data Scientist</li>
+                            <li aria-hidden='true'>Software Engineer</li>
+                        </ul>
+                    </span>
                 </h1>
             </div>
-            <div className='relative hidden lg:block'>
-                <div className='absolute -bottom-10 -left-32'>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        width='111'
-                        height='38'
-                        viewBox='0 0 111 38'
-                        fill='none'>
-                        <path
-                            d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
-                            stroke='#50C878'
-                            stroke-width='3'
-                        />
-                    </svg>
-                </div>
 
-                <div className='absolute top-10 -right-10'>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        width='111'
-                        height='38'
-                        viewBox='0 0 111 38'
-                        fill='none'>
-                        <path
-                            d='M109.123 0V12.1622H72.7485V24.3243H36.3742V36.4865H0'
-                            stroke='#50C878'
-                            stroke-width='3'
-                        />
-                    </svg>
-                </div>
-
-                <div className='absolute top-28 -left-10'>
-                    <Grid />
-                </div>
-
-                <div className='absolute -bottom-10 -right-20'>
-                    <Grid />
-                </div>
-
-                <div className='absolute bottom-10 right-px '>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        width='900'
-                        height='505'
-                        viewBox='0 0 910 505'
-                        fill='none'>
-                        <path
-                            d='M2 457.597V501C2 502.105 2.89543 503 4 503H907C908.105 503 909 502.105 909 501V4C909 2.89543 908.105 2 907 2L721.672 2'
-                            stroke='#50C878'
-                            stroke-width='3'
-                        />
-                    </svg>
-                </div>
-
-                <div
-                    className='z-10 relative'
-                    onMouseMove={(e) => {
-                        // const newStyle = setCoordinates(e.target.screenX, e.target.screenY);
-
-                        // if (e.clientX < 580)
-                        //     return {
-                        //         ...initialStyle,
-                        //         left: '0px',
-                        //     };
-                        // else if (e.clientX > 793)
-                        //     return {
-                        //         ...initialStyle,
-                        //         right: '0px',
-                        //     };
-                        let newCoord = e.clientX - 580;
-
-                        if (e.clientX < 580) newCoord = 1;
-                        else if (e.clientX > 795) newCoord = 216;
-
-                        setStyle({
-                            ...initialStyle,
-                            left: `${newCoord}px`,
-                        });
-                    }}>
-                    <h2 className='text-amber-300 text-7xl font-normal pb-10'>
-                        Hey! I'm
-                    </h2>
-                    <h1 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
-                        Akshay
-                    </h1>
-
-                    <div className='inline-flex'>
-                        <h1 className='text-amber-300 text-[200px] font-extrabold tracking-[20px]'>
-                            B
-                        </h1>
-                        <div className='relative flex items-center mt-10 w-[309px] h-[100px] bg-lightPrimaryBlue rounded-[100px] self-center pr-4'>
-                            <div style={style} />
-                            {/* <div className='w-[92px] h-[92px] bg-amber-300 rounded-full translate-x-1 animate-bounce ' /> */}
-                        </div>
-
-                        <h1 className='pl-4 text-amber-300 text-[200px] font-extrabold tracking-[20px] '>
-                            dla
-                        </h1>
-                    </div>
-                </div>
-
-                {/* <div className='items-center animate-bounce'>
+            <h2 className='text-secondaryText text-xl md:text-2xl mb-10'>
+                I create functionally-beautiful digital products with an emphasis on{' '}
+                <span className='font-bold text-neutral-50'>user experiences</span>{' '}
+                derived from meaningful{' '}
+                <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
+                    data insights.
+                </span>{' '}
+            </h2>
+            <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft'>
+                <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
+                Learn More
+            </button>
+            <div className='mt-10'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    width='75'
-                    height='41'
-                    viewBox='0 0 75 41'
+                    width='25'
+                    height='114'
+                    viewBox='0 0 25 114'
                     fill='none'>
                     <path
-                        d='M2 4.2688L36.818 37.3098C37.6192 38.0701 38.8851 38.037 39.6454 37.2358L72.6864 2.41781'
-                        stroke='#EBCD52'
-                        stroke-width='5'
+                        d='M12.25 112.5L12.25 5.02315e-06M12.25 112.5L0.931744 101.182M12.25 112.5L23.5683 101.182'
+                        stroke='#B9B9B9'
+                        stroke-width='2'
                     />
                 </svg>
-            </div> */}
             </div>
-        </>
+        </div>
     );
 };
 
