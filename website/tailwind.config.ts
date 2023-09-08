@@ -17,6 +17,23 @@ const config: Config = {
             colors: {
                 gold: '#EBCD52',
                 lightPrimaryBlue: '#729BF1',
+                secondaryText: '#D9D9D9',
+            },
+            animation: {
+                slideUpLeft: 'slideUpLeft 1s cubic-bezier(0.83, 0, 0.17, 1)',
+                slideDownRight: 'slideDownRight 1s cubic-bezier(0.83, 0, 0.17, 1)',
+            },
+            keyframes: {
+                slideUpLeft: {
+                    '25%, 50%': {
+                        transform: 'translate(-5%, -5%)',
+                    },
+                },
+                slideDownRight: {
+                    '25%, 50%': {
+                        transform: 'translate(5%, 5%)',
+                    },
+                },
             },
         },
     },
