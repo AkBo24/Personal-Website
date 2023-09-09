@@ -25,16 +25,16 @@ const Landing = () => {
     return (
         <div className='h-screen flex flex-col justify-center '>
             <div className='text-4xl tracking-wide'>
-                <h2 className='text-secondaryText mb-5'>Well, Hello!</h2>
-                <h1 className='text-secondaryText mb-5'>
+                <h2 className='text-2xl text-secondaryText mb-2 md:mb-5'>Well, Hello!</h2>
+                <h1 className='text-secondaryText md:mb-5'>
                     My name is <span className='text-gold font-semibold'>Akshay</span>.
                     I'm a
                 </h1>
 
-                <h1 className='my-20 text-secondaryText text-5xl md:text-7xl xl:text-9xl'>
+                <h1 className='my-8 md:my-20 text-secondaryText text-3xl md:text-7xl xl:text-9xl'>
                     <span
                         className='text-gold font-semibold inline-flex flex-col 
-                                        h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                                        h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] 
                                         md:h-[calc(theme(fontSize.7xl)*theme(lineHeight.tight))] 
                                         xl:h-[calc(theme(fontSize.9xl)*theme(lineHeight.tight))] 
                                         overflow-hidden'>
@@ -48,7 +48,7 @@ const Landing = () => {
                 </h1>
             </div>
 
-            <h2 className='text-secondaryText text-xl md:text-2xl mb-10'>
+            <h2 className='text-secondaryText text-xl mb-5 md:text-2xl md:mb-10'>
                 I create functionally-beautiful digital products with an emphasis on{' '}
                 <span className='font-bold text-neutral-50'>user experiences</span>{' '}
                 derived from meaningful{' '}
