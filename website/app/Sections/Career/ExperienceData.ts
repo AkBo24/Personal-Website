@@ -1,24 +1,42 @@
 type Experience = {
     title: String;
+    workPlace: WorkPlace;
     dateBegin: string;
     dateEnd: string;
     responsibilities: string[];
 };
 
-export const workPlaces = [
-    'Lead Software Engineer',
-    'UW Madison',
-    'Freelance',
-    'Certifications',
-];
+type WorkPlace = {
+    name: string;
+    key: number;
+};
 
-const experienceData: Experience[] = [
+export const workPlaces: WorkPlace[] = [
     {
-        title: 'Lead Software Engineer',
-        dateBegin: 'Jun 2023',
-        dateEnd: 'Aug 2023',
-        responsibilities: ['Test', 'Test'],
+        name: 'Lead Software Engineer',
+        key: 0,
+    },
+    {
+        name: 'UW Madison',
+        key: 1,
+    },
+    {
+        name: 'Freelance',
+        key: 2,
+    },
+    {
+        name: 'Certifications',
+        key: 3,
     },
 ];
 
-export default experienceData;
+// const experienceData: Experience[] = [
+//     {
+//         title: 'Lead Software Engineer',
+//         dateBegin: 'Jun 2023',
+//         dateEnd: 'Aug 2023',
+//         responsibilities: ['Test', 'Test'],
+//     },
+// ];
+
+// export default experienceData;
