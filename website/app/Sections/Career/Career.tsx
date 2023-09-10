@@ -1,8 +1,14 @@
-import React from 'react';
+'use client';
+import { useState } from 'react';
 import Image from 'next/image';
 import ExperienceSelector from './Components/ExperienceSelector';
+import ExperienceBody from './Components/ExperienceBody';
+import experiences from './ExperienceData';
 
 const Career = () => {
+    const [activeExperienceKey, setActiveExperienceKey] = useState<number>(0);
+    const updateActiveExperience = (key: number): void => setActiveExperienceKey(key);
+
     return (
         <div className='sectionContainer text-neutral-100'>
             {/* <h3 className='sectionHeaderBlue text-neutral-100 inline'>My Work</h3> */}
@@ -33,8 +39,12 @@ const Career = () => {
                 />
             </a> */}
 
-            <div className='flex'>
-                <ExperienceSelector />
+            <div className='flex gap-10'>
+                <ExperienceSelector
+                    activeExperience={activeExperienceKey}
+                    updateActiveExperience={updateActiveExperience}
+                />
+                <ExperienceBody activeExperience={experiences[activeExperienceKey]} />
             </div>
         </div>
     );

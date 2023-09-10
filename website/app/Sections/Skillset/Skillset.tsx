@@ -19,10 +19,10 @@ const Skillset = () => {
             </div>
 
             <div className='flex flex-col gap-2 lg:flex-row'>
-                <h4 className='lg:hidden flex-1 text-3xl font-semibold'>
+                <h4 className='text-neutral-50 lg:hidden flex-1 text-3xl font-semibold'>
                     Web Development, Project Management, & Data Science
                 </h4>
-                <h4 className='hidden lg:block flex-1 text-3xl font-semibold'>
+                <h4 className='hidden text-neutral-50 lg:block flex-1 text-3xl font-semibold'>
                     Web Development,
                     <br /> Project Management,
                     <br /> &<br /> Data Science
@@ -44,11 +44,11 @@ const Skillset = () => {
                 </p>
             </div>
 
-            <h3 className='mt-10 underline-lightPrimaryBlue text-2xl font-medium underline decoration-lightPrimaryBlue underline-offset-8'>
+            <h3 className='mt-10 text-white underline-lightPrimaryBlue text-2xl font-medium underline decoration-lightPrimaryBlue underline-offset-8'>
                 What I can do for you
             </h3>
 
-            <div className='grid grid-cols-2 gap-10 lg:grid-cols-4'>
+            <div className='grid grid-cols-2 gap-10 text-white lg:grid-cols-4'>
                 <div className='relative'>
                     <p className='absolute text-neutral-400 text-opacity-20 text-[64px] font-medium'>
                         01

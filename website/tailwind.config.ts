@@ -19,7 +19,7 @@ const config: Config = {
             colors: {
                 gold: '#EBCD52',
                 lightPrimaryBlue: '#729BF1',
-                secondaryText: '#D9D9D9',
+                secondaryText: '#B9B9B9',
                 mint: '#50C878',
             },
             animation: {
