@@ -8,7 +8,7 @@ const ExperienceSelector = () => {
         const baseStyle = 'block p-3 text-left border-l rounded-r-[1px]';
         return activeExperience === key
             ? `${baseStyle} bg-lightPrimaryBlue/20 border-l-mint`
-            : `${baseStyle} border-l-mint/20 hover:bg-lightPrimaryBlue/20 `;
+            : `${baseStyle} transition ease-in-out delay-150 border-l-mint/20 hover:bg-lightPrimaryBlue/20 hover:border-l-mint duration-300`;
     };
     const handleClick = (key: number) => setActiveExperience(key);
 
