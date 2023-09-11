@@ -6,16 +6,20 @@ const ExperienceBody = ({ activeExperience }: { activeExperience: Experience }) 
 
     return (
         <div className='pt-3'>
-            <h3 className='font-semibold mb-2 text-lg'>
+            <h3 className='font-semibold mb-2 text-xl'>
                 {activeExperience.title}{' '}
                 <span className='text-gold'>@ {activeExperience.workPlace.name}</span>
             </h3>
             <p className='text-secondaryText'>
                 {activeExperience.dateBegin} - {activeExperience.dateEnd}
             </p>
-            <ul className=' pl-4'>
+            <ul
+                className='mt-3 pl-4'
+                style={{
+                    color: 'red',
+                }}>
                 {activeExperience.responsibilities.map((responsibility, i) => (
-                    <li className='text-secondaryText pl-4' key={i}>
+                    <li className='text-secondaryText pl-4 mt-2' key={i}>
                         {responsibility}
                     </li>
                 ))}

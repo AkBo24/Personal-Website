@@ -57,7 +57,7 @@ const Skillset = () => {
                     <div className='relative top-8 left-4'>
                         <h4 className='text-gold text-2xl font-medium'>Design</h4>
 
-                        <ul className='mt-8'>
+                        <ul className='mt-8  list-image-none'>
                             <li className='mb-4'>Prototyping & wireframing </li>
                             <li className='mb-4'>User flows & mockups</li>
                             <li>User research & usability testing</li>
@@ -73,7 +73,7 @@ const Skillset = () => {
                     <div className='relative top-8 left-4'>
                         <h4 className='text-gold text-2xl font-medium'>Engineer</h4>
 
-                        <ul className='mt-8'>
+                        <ul className='mt-8  list-image-none'>
                             <li className='mb-4'>Mobile & Web Applications</li>
                             <li className='mb-4'>Data Pipelines</li>
                             <li className='mb-4'>Databases</li>
@@ -89,7 +89,7 @@ const Skillset = () => {
                     <div className='relative top-8 left-4'>
                         <h4 className='text-gold text-2xl font-medium'>Analyze</h4>
 
-                        <ul className='mt-8'>
+                        <ul className='mt-8  list-image-none'>
                             <li className='mb-4'>Data Visulalization</li>
                             <li className='mb-4'>Data Wrangling</li>
                             <li className='mb-4'>Cloud Computing</li>
@@ -105,7 +105,7 @@ const Skillset = () => {
                     <div className='relative top-8 left-4'>
                         <h4 className='text-gold text-2xl font-medium'>Lead</h4>
 
-                        <ul className='mt-8'>
+                        <ul className='mt-8 list-image-none'>
                             <li className='mb-4'>Agile & Scrum</li>
                             <li className='mb-4'>Project Management</li>
                         </ul>
