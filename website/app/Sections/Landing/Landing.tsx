@@ -70,7 +70,7 @@ const Landing = () => {
                     <path
                         d='M12.25 112.5L12.25 5.02315e-06M12.25 112.5L0.931744 101.182M12.25 112.5L23.5683 101.182'
                         stroke='#B9B9B9'
-                        stroke-width='2'
+                        strokeWidth='2'
                     />
                 </svg>
             </div>

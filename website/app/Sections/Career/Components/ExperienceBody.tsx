@@ -13,9 +13,11 @@ const ExperienceBody = ({ activeExperience }: { activeExperience: Experience }) 
             <p className='text-secondaryText'>
                 {activeExperience.dateBegin} - {activeExperience.dateEnd}
             </p>
-            <ul className='list-disc pl-4'>
-                {activeExperience.responsibilities.map((responsibility) => (
-                    <li className='text-secondaryText'>{responsibility}</li>
+            <ul className=' pl-4'>
+                {activeExperience.responsibilities.map((responsibility, i) => (
+                    <li className='text-secondaryText pl-4' key={i}>
+                        {responsibility}
+                    </li>
                 ))}
             </ul>
         </div>

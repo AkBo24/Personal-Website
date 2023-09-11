@@ -53,6 +53,9 @@ const config: Config = {
                     },
                 },
             },
+            listStyleImage: {
+                arrow: 'url("/public/bullet.png")',
+            },
         },
     },
     plugins: [],
