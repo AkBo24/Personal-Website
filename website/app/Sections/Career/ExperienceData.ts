@@ -6,7 +6,7 @@ export type Experience = {
     responsibilities: string[];
 };
 
-type WorkPlace = {
+export type WorkPlace = {
     name: string;
     key: number;
 };

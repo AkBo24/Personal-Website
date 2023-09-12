@@ -4,13 +4,14 @@ import Image from 'next/image';
 import ExperienceSelector from './Components/ExperienceSelector';
 import ExperienceBody from './Components/ExperienceBody';
 import experiences from './ExperienceData';
+import SmExperience from './Components/SmExperience';
 
 const Career = () => {
     const [activeExperienceKey, setActiveExperienceKey] = useState<number>(0);
     const updateActiveExperience = (key: number): void => setActiveExperienceKey(key);
 
     return (
-        <div className='sectionContainer text-neutral-100'>
+        <div className='lg:sectionContainer text-neutral-100'>
             {/* <h3 className='sectionHeaderBlue text-neutral-100 inline'>My Work</h3> */}
             <div className='relative mb-10'>
                 {/* <h3 className='font-'>Skills</h3> */}
@@ -25,21 +26,11 @@ const Career = () => {
                 <h3 className='sectionHeaderBlue'>My Work</h3>
             </div>
 
-            {/* <a
-                href=''
-                target='_blank'
-                rel='noopener noreferrer'
-                className='text-lg font-medium underlineLightblue ml-10 group hover:text-lightPrimaryBlue'>
-                see my resume
-                <img
-                    src='arrowleft.svg'
-                    alt='Arrow pointing left, indicating go'
-                    className='inline pl-1  group-hover:translate-x-2'
-                    width={20}
-                />
-            </a> */}
+            <div className='md:hidden'>
+                <SmExperience />
+            </div>
 
-            <div className='flex gap-10'>
+            <div className='hidden md:flex gap-10'>
                 <ExperienceSelector
                     activeExperience={activeExperienceKey}
                     updateActiveExperience={updateActiveExperience}
