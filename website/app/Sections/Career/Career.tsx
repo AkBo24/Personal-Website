@@ -20,7 +20,7 @@ const Career = () => {
                     alt='Text reading Skills'
                     width={400}
                     height={400}
-                    className='absolute -top-5 -left-5 opacity-80'
+                    className='absolute -top-5 -left-5 opacity-80 -z-10'
                 />
 
                 <h3 className='sectionHeaderBlue'>My Work</h3>

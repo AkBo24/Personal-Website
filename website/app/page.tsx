@@ -4,6 +4,7 @@ import About from './Sections/About/About';
 import Career from './Sections/Career/Career';
 import Footer from './Sections/Footer/Footer';
 import Navbar from './Sections/Navbar/Navbar';
+import Projects from './Sections/Projects/Projects';
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                 <Landing />
                 <Skillset />
                 <Career />
+                <Projects />
                 <About />
             </main>
             <Footer />

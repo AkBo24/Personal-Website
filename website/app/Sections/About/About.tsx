@@ -5,22 +5,15 @@ import ImageArrow from '../Components/ImageArrow/ImageArrow';
 const About = () => {
     return (
         <div className='relative'>
-            <div className='hidden lg:block absolute -top-10 -left-36'>
-                <Grid />
-            </div>
-
-            <div className='hidden lg:block absolute -bottom-5 -right-36'>
-                <Grid />
-            </div>
             <div className='relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
-                <div className='grid gap-6 grid-flow-row lg:grid-cols-2'>
+                <div className='grid gap-5 grid-flow-row lg:grid-cols-2'>
                     <h4 className='text-white text-3xl font-semibold'>
                         Tough problems inspire me to ideate and build.
                     </h4>
 
-                    <p className='text-neutral-400'>
+                    <p className='text-neutral-400 tracking-wide'>
                         I'm a devloper with an interest in bytes and a lot of other
                         things. I got started with computer science in 8th grade when I
                         took a graphic and (a very introductory) web design course. My
