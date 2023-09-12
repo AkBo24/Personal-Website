@@ -25,7 +25,7 @@ const Landing = () => {
     return (
         <div className='h-screen flex flex-col justify-center '>
             <div className='text-4xl tracking-wide'>
-                <h2 className='text-2xl text-secondaryText mb-2 md:mb-5'>Well, Hello!</h2>
+                <h2 className='text-secondaryText mb-2 md:mb-5'>Well, Hello!</h2>
                 <h1 className='text-secondaryText md:mb-5'>
                     My name is <span className='text-gold font-semibold'>Akshay</span>.
                     I'm a
@@ -56,7 +56,7 @@ const Landing = () => {
                     data insights.
                 </span>{' '}
             </h2>
-            <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft'>
+            <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft text-neutral-50 font-medium'>
                 <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
                 Learn More
             </button>

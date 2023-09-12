@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className=''>
             <Navbar />
-            <main className='flex flex-col gap-28 min-h-screen lg:items-center p-10 lg:gap-64 lg:p-24 text-secondaryText font-inter'>
+            <main className='flex flex-col gap-28 min-h-screen lg:items-center p-10 lg:gap-64 lg:px-24 lg:pb-24 text-secondaryText font-inter'>
                 <Landing />
                 <Skillset />
                 <Career />

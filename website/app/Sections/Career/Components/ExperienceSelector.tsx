@@ -9,7 +9,8 @@ const ExperienceSelector = ({
 }) => {
     // const [activeExperience, setActiveExperience] = useState<number>(0);
     const setStyle = (key: number): string => {
-        const baseStyle = 'block p-3 text-left border-l rounded-r-[1px]';
+        const baseStyle =
+            'block text-secondaryText p-3 text-left border-l rounded-r-[1px]';
         return activeExperience === key
             ? `${baseStyle} bg-lightPrimaryBlue/20 border-l-mint`
             : `${baseStyle} transition ease-in-out border-l-mint/20 hover:bg-lightPrimaryBlue/20 hover:border-l-mint duration-200`;
