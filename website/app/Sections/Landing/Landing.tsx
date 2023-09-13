@@ -48,13 +48,17 @@ const Landing = () => {
                 </h1>
             </div>
 
-            <h2 className='text-secondaryText text-xl mb-5 md:text-2xl md:mb-10'>
+            <h2 className='text-secondaryText text-xl  md:text-2xl '>
                 I create functionally-beautiful digital products with an emphasis on{' '}
                 <span className='font-bold text-neutral-50'>user experiences</span>{' '}
                 derived from meaningful{' '}
                 <span className='font-bold bg-gradient-to-r from-mint to-lightPrimaryBlue inline-block text-transparent bg-clip-text'>
                     data insights.
                 </span>{' '}
+            </h2>
+            <h2 className='text-sm mb-5 md:mb-10'>
+                Note: This website is still under development, come back later to see how
+                it evolves!
             </h2>
             <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft text-neutral-50 font-medium'>
                 <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
