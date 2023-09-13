@@ -60,4 +60,12 @@ ul{
   .careerBody {
     @apply pl-4
   }
+
+  .navLink {
+    @apply  transition duration-300 hover:brightness-125
+  }
+
+  .navUnderline {
+    @apply block max-w-0 group-hover:max-w-full group-hover:scale-100 transition-all duration-500 h-0.5 bg-lightPrimaryBlue
+  }
 }
