@@ -4,7 +4,7 @@ import Frame from './Components/Frame';
 
 const Skillset = () => {
     return (
-        <div className='lg:sectionContainer relative'>
+        <div className='lg:sectionContainer relative scroll-m-10' id='skill'>
             <div className='relative mb-10'>
                 {/* <h3 className='font-'>Skills</h3> */}
                 <Image

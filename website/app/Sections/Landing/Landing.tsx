@@ -23,7 +23,7 @@ const Landing = () => {
     };
 
     return (
-        <div className='h-screen flex flex-col justify-center '>
+        <div className='h-screen flex flex-col justify-center scroll-m-10' id='landing'>
             <div className='text-4xl tracking-wide'>
                 <h2 className='text-secondaryText mb-2 md:mb-5'>Well, Hello!</h2>
                 <h1 className='text-secondaryText md:mb-5'>
@@ -60,10 +60,12 @@ const Landing = () => {
                 Note: This website is still under development, come back later to see how
                 it evolves!
             </h2>
-            <button className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft text-neutral-50 font-medium'>
+            <a
+                href='#skill'
+                className='relative self-start bg-lightPrimaryBlue p-2 rounded-sm group hover:animate-slideUpLeft text-neutral-50 font-medium'>
                 <div className='-z-10 w-[101px] h-[40px] absolute border-lightPrimaryBlue border rounded-sm group-hover:animate-slideDownRight' />
                 Learn More
-            </button>
+            </a>
             <div className='mt-10'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'

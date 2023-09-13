@@ -4,7 +4,7 @@ import Project from './Components/Project';
 
 const Projects = () => {
     return (
-        <div className='lg:sectionContainer'>
+        <div className='lg:sectionContainer scroll-m-10' id='projects'>
             {' '}
             <div className='relative mb-10'>
                 {/* <h3 className='font-'>Skills</h3> */}

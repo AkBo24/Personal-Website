@@ -11,7 +11,7 @@ const Career = () => {
     const updateActiveExperience = (key: number): void => setActiveExperienceKey(key);
 
     return (
-        <div className='lg:sectionContainer text-neutral-100'>
+        <div className='lg:sectionContainer text-neutral-100 scroll-m-10' id='experience'>
             {/* <h3 className='sectionHeaderBlue text-neutral-100 inline'>My Work</h3> */}
             <div className='relative mb-10'>
                 {/* <h3 className='font-'>Skills</h3> */}

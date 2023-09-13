@@ -4,7 +4,7 @@ import ImageArrow from '../Components/ImageArrow/ImageArrow';
 
 const About = () => {
     return (
-        <div className='relative'>
+        <div className='relative' id='about'>
             <div className='relative sectionContainer'>
                 <h3 className='sectionHeaderBlue'>About me</h3>
 
